@@ -10,7 +10,7 @@ At this checkpoint, you’re instructed to:
 * Use local links, lists, or tables.
 * Use HTML forms.
 
-Instructions: 
-1- Create the navbar: home, about, work, resume, contact
-2- Create the “about” section, ”work” section, ”resume” section, and ”contact” section (using HTML Forms) \
+Instructions: <br/>
+1- Create the navbar: home, about, work, resume, contact <br/>
+2- Create the “about” section, ”work” section, ”resume” section, and ”contact” section (using HTML Forms) <br/>
 3- Create the page footer.
