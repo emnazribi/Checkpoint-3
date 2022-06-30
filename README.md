@@ -11,8 +11,8 @@ At this checkpoint, you’re instructed to:
 * Use HTML forms.
 
 Instructions
-1- Create the navbar: home, about, work, resume, contact
+1- Create the navbar: home, about, work, resume, contact \\ 
 
-2- Create the “about” section, ”work” section, ”resume” section, and ”contact” section (using HTML Forms) 
+2- Create the “about” section, ”work” section, ”resume” section, and ”contact” section (using HTML Forms) \\
 
 3- Create the page footer.
