@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5500/index.html#home -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <img src="./Document_files/lp (2).jpg" alt="A dog"> <br> 
+        <b> Emna Zribi </b>
+    </div>
+
+
+    <nav>     
+        <div>
+            <ul>
+                <li>
+                    <a href="http://127.0.0.1:5500/index.html#home">home</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:5500/index.html#about">About</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:5500/index.html#work">Work</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:5500/index.html#resume">Resume</a>
+                </li>
+                <li>
+                        <a href="http://127.0.0.1:5500/index.html#contact">Contact</a>
+                </li>
+            </ul>
+                
+    </div></nav>
+
+<!-- About section-->
+     <section class="bgimage" id="about">
+        <div>
+            <h2>Hi, it's me  Emna</h2>
+            <iframe width="560" height="315" src="./Document_files/nCaIx4eGEac.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        </div>
+        <div>
+            <h1 class="text-center">About Me</h1>
+            <div>
+                <div>
+                        <ul>
+                            <li>Name: Emna Zribi</li>
+                            <li>Age: 21</li>
+                            <li>Occupation: Student </li>
+                        </ul>
+                </div>
+                <div>
+                    <p> I am a student in the third year applied mathematics license DATA SCIENCE course at the Faculty of Sciences 
+                        of Tunis; I am 21 years old and I am an ambitious, hardworking, persevering and overwhelmed person.</p>
+                       
+                </div>
+                
+            </div>
+    </div></section>
+
+
+<!-- Work section-->
+<section id="work">
+    <h1 class="text-center"> Work </h1>
+    <audio controls="">
+        <source src="i-dont-want-to-38828.mp3" type="audio/mpeg">
+            Please Check the audio Extension
+    </audio> <br>
+</section>
+
+
+ <!-- resume section-->
+    <section id="resume">
+        <h1 class="text-center"> Resume </h1>
+        <div>
+            <h4> Summer internship: </h4> 
+            <div> 
+                <ul>
+                    <li> Startup: <a href="https://www.linkedin.com/company/fabskill/?originalSubdomain=tn"> Fabskill </a></li>
+                    <li>Duration: 1 month</li>
+                    <li>Field: artificial intelligence</li>
+                </ul>
+        </div>
+   
+        <div>
+            <h4>  Graduation project : </h4> 
+            <div>
+                <ul>
+                    <li> Company: <a href="https://www.wevioo.com/fr/group-wevioo"> Wevioo </a> </li> 
+                    <li>Duration: 4 months </li>
+                    <li>Field: artificial intelligence and NLP </li>
+                </ul>
+        </div>
+        <div>
+            <h4>  Trainings: </h4> 
+            <div> 
+                <ul>
+                    <li> Machine Learning training at <a href="https://gomycode.com/TN-FR/home"> Go My Code </a></li>
+                    <li> Deep Learning training at <a href="https://gomycode.com/TN-FR/home"> Go My Code </a></li>
+                </ul>
+        </div>  
+    </div></div></div></section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <h1 class="text-center">Contact Me</h1>
+
+        <div>
+            <form>
+                <input type="text" class="form-control form-control-lg" placeholder="Name"> <br>
+                <input type="email" class="form-control mt-3" placeholder="Email"> <br>
+                <input type="text" class="form-control mt-3" placeholder="Subject"> <br>
+                <div>
+                    <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                </div>
+            </form>
+            <button type="button" class="btn btn-success mt-3">Contact Me</button>
+        </div> 
+
+         
+    </section>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+<footer> 
+    <div> <h1>  Did You like it ? </h1> 
+    </div>
+    <select>
+            
+        <option value="Yes "> Yes</option>
+        <option value="NO "> NO</option>
+    </select> 
+</footer>
+</body></html>
